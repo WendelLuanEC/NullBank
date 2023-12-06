@@ -1,29 +1,29 @@
 
-# Projeto NullBank - Sistema de Gerenciamento Bancário
+# NullBank Project - Bank Management System 
 
-## Descrição
-Este projeto é uma aplicação web de gerenciamento de contas bancárias, ela possui um banco de dados que armazena as informações dos clientes e suas contas, tem também um controle de acesso de usuários, dos quais temos o usuário Administrador/DBA, que tem total acesso para leitura e escrita de todas as informações da base de dados. Temos outros tipos de usuários, que de acordo com os seus cargos, têm acesso restrito às funcionalidades do sistema.  Aplicação desenvolvida na disciplina de Banco de Dados do curso de Engenharia de Computação.
+## Description
+This project is a web application for managing bank accounts, it has a database that stores customer information and their accounts, it also has user access control, of which We have the Administrator/DBA user, who has full access to read and write all information in the database. We have other types of users, who, depending on their positions, have restricted access to the system's functionalities. Application developed in the Database discipline of the Computer Engineering course. 
 
-## Funcionalidades
-O sistema solicita "Usuário" e "Senha" de acesso ao banco de dados logo na tela inicial.
-Níveis de acesso: O sistema possui três níveis de acesso:
- - Administrador/DBA: O usuário DBA possui acesso total e irrestrito ao sistema, podendo realizar toda e qualquer operação.
- - Gerente: O gerente só tem acesso aos dados das contas que gerencia.
- - Atendente/Funcionário: O atendente/funcionário só tem acesso de leitura aos números e saldos das contas de sua agência.
- - Caixa: O caixa tem acesso irrestrito às transações das contas de sua agência, podendo efetuar operações sobre as mesmas.
+## Features
+The system requests "User" and "Password" to access the database right on the initial screen.
+Access levels: The system has three access levels:
+  - Administrator/DBA: The DBA user has full and unrestricted access to the system, being able to carry out any and all operations.
+  - Manager: The manager only has access to data from the accounts he manages.
+  - Attendant/Employee: The attendant/employee only has read access to the numbers and balances of their agency's accounts.
+  - Cashier: The cashier has unrestricted access to transactions in his branch's accounts and can carry out operations on them.
 
-## Tecnologias utilizadas
+## Technologies used
  - Front-end: ReactJS
  - Back-end: NodeJS
  - Banco de dados: MySQL
 
-## Pré requisitos
+## Prerequisites
 
 - NodeJS
 - SQL
 - NPM
 
- ### Para rodar o projeto, você precisa instalar os sotfwares mencionados anteriormente, siga os passos a seguir:
+ ### To run the project, you must install the software mentioned above, follow these steps:
 
 1. Type in your terminal in a folder of your choice
  ```bash
